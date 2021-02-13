@@ -45,7 +45,7 @@ Adjustments made:
 
 **The script for Deliverables 1 and 2 can be access via the link below:**
 
-[Link to the Alphabet Soup Charity.ipynb](https://github.com/jsaltmd/Cryptocurrencies/blob/main/crypto_clustering.ipynb)
+[Link to the Alphabet Soup Charity.ipynb](https://github.com/jsaltmd/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb)
 
 **Deliverable 3:** Optimize the Model:
 
@@ -111,7 +111,7 @@ Adjustments made:
 
 **The script for Deliverable 3 can be access via the link below:**
 
-[Link to the Alphabet Soup Charity Optimization.ipynb](https://github.com/jsaltmd/Cryptocurrencies/blob/main/crypto_clustering.ipynb)
+[Link to the Alphabet Soup Charity Optimization.ipynb](https://github.com/jsaltmd/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization.ipynb)
 
 **NOTE:** The AlphabetSoupCharity_Optimzation.h5 file was saved from the third optimization attempt.
 
@@ -121,35 +121,35 @@ Adjustments made:
 
 Summary: *A written report summary on the performance of the deep learning model created for AlphabetSoup.*
 
-1. Data Preprocessing
+**1. Data Preprocessing**
 
-- What variable(s) are considered the target(s) for your model?
+**- What variable(s) are considered the target(s) for your model?**
 
 *The target considered was the "IS_SUCCESSFUL" column.*
 
-- What variable(s) are considered to be the features for your model?
+**- What variable(s) are considered to be the features for your model?**
 
 *The features considered are the rest of the columns in the preprocessed dataset which can be verified in the attached notebooks. See links above.*
 
-- What variable(s) are neither targets nor features, and should be removed from the input data?
+**- What variable(s) are neither targets nor features, and should be removed from the input data?**
 
 *For deliverable 1 and 2, the following variables: "EIN" and "NAME" were removed from the preprocessed data set.*
 
 *For deliverable 3, the following variables: "EIN", "NAME", "USE_CASE" and/or "ORGANIZATION" were removed from the preprocessed data set.*
 
-2. Compiling, Training, and Evaluating the Model
+**2. Compiling, Training, and Evaluating the Model**
 
-- How many neurons, layers, and activation functions did you select for your neural network model, and why?
+**- How many neurons, layers, and activation functions did you select for your neural network model, and why?**
 
 *The number of neurons, layers, and activation functions are summarized in deliverable 1, 2, and 3 written results above. Those values and/or settings were choosen to match the required outputs for both deliverables 1 and 2 and to optimize/troubleshoot the model for deliverable 3.*
 
-- Were you able to achieve the target model performance?
+**- Were you able to achieve the target model performance?**
 
 *No. The three attempts in Deliverable 3 to optimize the original predictive accuracy result of 73% from Deliverable 2 to a target model performance higher than 75%, produced an accuracy range results of 72% - 73%. Therefore, the accuracy did not changed or improved even with adjustments made. refer to results summary above*
 
-- What steps did you take to try and increase model performance?
+**- What steps did you take to try and increase model performance?**
 
 *Refer to the list of adjustments made on all three attempts in Deliverable 3 above.*
 
 
-**Summary:** Based on the data analysis, the predictive results did not improve from the original target model performance of 73% even with optimization. Perhaps additional adjustments are needed to be made during preprocessing of the data or additional input data is needed in order to have a more meaningful result. perhaps a deep neural network model is not the best model for this type of analysis due to potential overfitting. I recommend to explore other models such as Logistic Regression, Support Vector Machine, or Random Forest classifiers can be used to determine which is robust and accurate model. Random forest models could be an option as it has been a staple in machine learning algorithms for many years due to their robustness and scalability. Both output and feature selection of random forest models are easy to interpret, and they can easily handle outliers and nonlinear data. Structurally speaking, random forest models are very similar to their neural network counterparts - Module 19.5.4.
+**Summary:** Based on the data analysis, the predictive results did not improve from the original target model performance of 73% even with optimization. Perhaps additional adjustments are needed to be made during preprocessing of the data or additional input data is needed in order to have a more meaningful result. perhaps a deep neural network model is not the best model for this type of analysis due to potential overfitting. I recommend to explore other models such as Logistic Regression, Support Vector Machine, or Random Forest classifiers to determine which is robust and accurate model. Random forest models could be an option as it has been a staple in machine learning algorithms for many years due to their robustness and scalability. Both output and feature selection of random forest models are easy to interpret, and they can easily handle outliers and nonlinear data. Structurally speaking, random forest models are very similar to their neural network counterparts - Module 19.5.4.
