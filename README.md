@@ -115,8 +115,6 @@ Adjustments made:
 
 **NOTE:** The AlphabetSoupCharity_Optimzation.h5 file was saved from the third optimization attempt.
 
-### Summary:
-
 **Deliverable 4:** A Written Report on the Neural Network Model:
 
 Summary: *A written report summary on the performance of the deep learning model created for AlphabetSoup.*
@@ -145,11 +143,13 @@ Summary: *A written report summary on the performance of the deep learning model
 
 **- Were you able to achieve the target model performance?**
 
-*No. The three attempts in Deliverable 3 to optimize the original predictive accuracy result of 73% from Deliverable 2 to a target model performance higher than 75%, produced an accuracy range results of 72% - 73%. Therefore, the accuracy did not changed or improved even with adjustments made. refer to results summary above*
+*No. The three attempts in Deliverable 3 to optimize the original predictive accuracy result of 73% from Deliverable 2 to a target model performance higher than 75%, produced an accuracy range results of 72% - 73%. Therefore, the accuracy did not changed or improved even with adjustments made. Refer to results summary above*
 
 **- What steps did you take to try and increase model performance?**
 
 *Refer to the list of adjustments made on all three attempts in Deliverable 3 above.*
 
 
-**Summary:** Based on the data analysis, the predictive results did not improve from the original target model performance of 73% even with optimization. Perhaps additional adjustments are needed to be made during preprocessing of the data or additional input data is needed in order to have a more meaningful result. perhaps a deep neural network model is not the best model for this type of analysis due to potential overfitting. I recommend to explore other models such as Logistic Regression, Support Vector Machine, or Random Forest classifiers to determine which is robust and accurate model. Random forest models could be an option as it has been a staple in machine learning algorithms for many years due to their robustness and scalability. Both output and feature selection of random forest models are easy to interpret, and they can easily handle outliers and nonlinear data. Structurally speaking, random forest models are very similar to their neural network counterparts - Module 19.5.4.
+### Summary:
+
+Based on the data analysis, the predictive results did not improve from the original target model performance of 73% even with optimization. Perhaps additional adjustments are needed to be made during preprocessing of the data or additional input data is needed in order to have a more meaningful result. perhaps a deep neural network model is not the best model for this type of analysis due to potential overfitting. I recommend to explore other models such as Logistic Regression, Support Vector Machine, or Random Forest classifiers to determine which is robust and accurate model. Random forest models could be an option as it has been a staple in machine learning algorithms for many years due to their robustness and scalability. Both output and feature selection of random forest models are easy to interpret, and they can easily handle outliers and nonlinear data. Structurally speaking, random forest models are very similar to their neural network counterparts - Module 19.5.4.
